@@ -5,3 +5,10 @@ threadsafe: true
 handlers:
 - url: /.*
   script: app.app
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- ^(.*/)?(google-cloud-sdk/.*)$
