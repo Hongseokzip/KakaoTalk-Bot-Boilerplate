@@ -21,6 +21,6 @@ $ curl https://sdk.cloud.google.com | bash
 $ (venv) gcloud init
 ```
 
-참고
+참고<br>
 [VirtualEnv 에 Google Cloud SDK 설정하기](https://jeonsungyun.github.io/2017/python-google-cloud-sdk-virtualenv-setting/) <br>
 [Flask RESTful 라이브러리와 Blueprint](https://jeonsungyun.github.io/2017/flask-restful-with-blueprint/)
